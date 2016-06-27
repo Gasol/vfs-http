@@ -10,7 +10,8 @@
     "license": "MIT",
     "require": {
         "mikey179/vfsStream": "^1.6",
-        "ruflin/elastica": "^2.3"
+        "ruflin/elastica": "^2.3",
+        "phpunit/phpunit": "^5.4"
     },
     "autoload": {
         "files": [
