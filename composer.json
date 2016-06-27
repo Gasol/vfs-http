@@ -1,0 +1,10 @@
+{
+    "name": "gasolwu/vfs-http",
+    "authors": [
+        {
+            "name": "Gasol Wu",
+            "email": "gasol.wu@gmail.com"
+        }
+    ],
+    "require": {}
+}
