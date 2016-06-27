@@ -6,5 +6,7 @@
             "email": "gasol.wu@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "mikey179/vfsStream": "^1.6"
+    }
 }
