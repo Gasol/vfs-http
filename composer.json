@@ -9,5 +9,10 @@
     "require": {
         "mikey179/vfsStream": "^1.6",
         "ruflin/elastica": "^2.3"
+    },
+    "autoload": {
+        "files": [
+            "src/Stream.php"
+        ]
     }
 }
