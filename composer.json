@@ -1,5 +1,6 @@
 {
     "name": "gasolwu/vfs-http",
+    "description": "Simple POC of testing Elastica without Running Elasticsearch or HTTP mock server",
     "authors": [
         {
             "name": "Gasol Wu",
