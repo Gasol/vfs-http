@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "37f8276e8f9794100c5e5f990d8c136f",
-    "content-hash": "70c24f022317ab0f1e1c3ed7714f2e8a",
+    "hash": "0db0723b235d6ce1b0dec4188da093d4",
+    "content-hash": "5f7e093dad2994b3f8af2fbe9802b0ca",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -301,6 +301,47 @@
             ],
             "description": "Collection of math related PHP functions",
             "time": "2016-02-12 14:03:52"
+        },
+        {
+            "name": "lstrojny/phpunit-clever-and-smart",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lstrojny/phpunit-clever-and-smart.git",
+                "reference": "f1766f3fd77c0fbc9093261e5f8e664b65fa11d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lstrojny/phpunit-clever-and-smart/zipball/f1766f3fd77c0fbc9093261e5f8e664b65fa11d9",
+                "reference": "f1766f3fd77c0fbc9093261e5f8e664b65fa11d9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sqlite3": "*",
+                "phpunit/phpunit": "*"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "symfony/process": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPUnit\\Runner\\CleverAndSmart": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Strojny",
+                    "email": "lars@strojny.net"
+                }
+            ],
+            "description": "A clever test runner for PHPUnit",
+            "time": "2014-03-13 17:41:39"
         },
         {
             "name": "mikey179/vfsStream",
